@@ -38,3 +38,19 @@ for(const key in Distancia){
         console.log(" no encontro la distancia") 
     }
 }
+
+NombredePlanetas.forEach((value, index, array)=> {
+    console.log("planeta", index, value)
+});
+
+NombredePlanetas.map((planeta, index)=> {
+    return(
+        console.log("El planeta ${planetas} tiene tamaño de: ${tamaño [index]}")
+    )
+})
+
+let resultadoMap = NombredePlanetas.map((planetas, index)=>{
+    return(
+        console.log("El planeta ${planetas} tiene tamaño de: ${tamaño [index]}")
+    )
+})
